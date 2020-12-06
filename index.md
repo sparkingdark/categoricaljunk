@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+<img src = "https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_thumbnail_photos/001/303/587/datas/medium.png" style="width:256px;height:256px;"></img>
 
-You can use the [editor on GitHub](https://github.com/sparkingdark/categoricaljunk/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+# Categorical Trash
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Inspiration
+Environment is the most important part of our life and we humans are producing so much trash that mother earth is now polluted so much that we need some good innovation to fight this and solve the problem.That's why we come with categorical trash,an android app.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## What it does
 
-# Header 1
-## Header 2
-### Header 3
+It basically a very simple application which takes picture from the users phone camera and after that it differentiate the type of the junk in various categories like metal,glass,biodegradable,plastic and cardboard.You got a link after that which give you the good reference what to do with the trash.
 
-- Bulleted
-- List
+## How we built it
 
-1. Numbered
-2. List
+We basically search for some similar opensource code to reuse in our application,so we found the android app from the github and we train a model from the google colab and [teachablemachine](https://teachablemachine.withgoogle.com/).Now we collected data from the [trashnet](https://drive.google.com/drive/folders/0B3P9oO5A3RvSUW9qTG11Ul83TEE).After that we get the tflite model and embedded into our application to run it.Voila it's works awesome.
 
-**Bold** and _Italic_ and `Code` text
+## Challenges we ran into
 
-[Link](url) and ![Image](src)
-```
+- first challenge is to get data and we fill that we lack of data.
+- Time constraint to train a model.
+- Getting ready with sceleton application to make our demo work.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Accomplishments that we're proud of
 
-### Jekyll Themes
+- We built it within 18 hours and now going to improve it more.
+- Our team worked together and created this awesome application this far.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sparkingdark/categoricaljunk/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## What we learned
+- Machine Learning with tflite
+- Android app development using Kotlin
+- Some basic UI design
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## What's next for Categorical trash
+
+- Adding more functionality
+- Publishing it to the play store
+- Getting feedback from users to improve.
