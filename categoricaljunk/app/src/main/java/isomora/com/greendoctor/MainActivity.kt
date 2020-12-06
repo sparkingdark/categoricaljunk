@@ -10,6 +10,7 @@ import android.graphics.BitmapFactory
 import android.graphics.Matrix
 import android.os.Build
 import android.provider.MediaStore
+import android.text.method.LinkMovementMethod
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Gravity
@@ -52,6 +53,7 @@ class MainActivity : AppCompatActivity() {
             callGalleryIntent.type = "image/*"
             startActivityForResult(callGalleryIntent, mGalleryRequestCode)
         }
+
         mDetectButton.setOnClickListener {
             val results = mClassifier.recognizeImage(mBitmap).firstOrNull()
             val garbage = results?.title
@@ -62,6 +64,8 @@ class MainActivity : AppCompatActivity() {
                 mResultTextView.text= results?.title+"\n Confidence:"+results?.confidence+"\nYou can't Recycle..."
             }
         }
+
+        mHyperLink.setMovementMethod(LinkMovementMethod.getInstance())
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -74,7 +78,7 @@ class MainActivity : AppCompatActivity() {
                 toast.setGravity(Gravity.BOTTOM, 0, 20)
                 toast.show()
                 mPhotoImageView.setImageBitmap(mBitmap)
-                mResultTextView.text= "Your photo image set now."
+                mResultTextView.text= "Click \"DETECT\" Button."
             } else {
                 Toast.makeText(this, "Camera cancel..", Toast.LENGTH_LONG).show()
             }
