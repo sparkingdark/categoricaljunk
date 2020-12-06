@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Categorical Junk</string>
+    <string name="buttonSelectPhoto">Select Photo</string>
+    <string name="buttonTakePhoto">Start Camera</string>
+    <string name="buttonDiagnose">Detect</string>
+    <string name="defaultImage">Default image set now...</string>
+    <string name="descriptionImage">View for displaying image</string>
+    <string name="categorical_junk2">CATEGORICAL JUNK</string>
+    <string name="hyperlink"><a href="https://www.wm.com/us/en/recycle-right/recycling-101">Learn More</a></string>
+    <string name="notRecyclable">Not Recyclable</string>
+</resources>
