@@ -37,3 +37,20 @@ We basically search for some similar opensource code to reuse in our application
 - Adding more functionality
 - Publishing it to the play store
 - Getting feedback from users to improve.
+
+## Meet our Team
+
+- [Debojyoti Chakraborty]()
+- [Peter hankyu wi](https://https://www.linkedin.com/in/peter-hankyu-wi/)
+- [Shubham Patel](https://www.linkedin.com/in/shubham-patel-88978217b)
+- [Ajay Gour]()
+
+## Credits Open Source Code Used:
+
+- [Anti Plasti](https://github.com/antiplasti/Plastic-Detection-Model) 
+  License Granted [MIT](https://github.com/antiplasti/Plastic-Detection-Model#license)
+  
+- [Plant Disease Detector](https://github.com/obeshor/Plant-Diseases-Detector) for skeleton app
+  License Granted [Apache 2.0](https://github.com/obeshor/Plant-Diseases-Detector#license)
+  
+- [Teachable machine](https://teachablemachine.withgoogle.com/)
