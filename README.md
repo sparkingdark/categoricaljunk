@@ -43,7 +43,7 @@ We basically search for some similar opensource code to reuse in our application
 - [Debojyoti Chakraborty](https://myexpindark.me)
 - [Peter hankyu wi](https://www.linkedin.com/in/peter-hankyu-wi/)
 - [Shubham Patel](https://www.linkedin.com/in/shubham-patel-88978217b)
-- [Ajay Gour]()
+- [Ajay Gour](https://www.linkedin.com/in/ajay-gour/)
 
 ## Credits Open Source Code Used:
 
